@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  font-family: "Inter", sans-serif;
+}
+.signup-container {
+  background-image: url('https://i.pinimg.com/originals/7a/80/a8/7a80a86f5d73d46955442baaadd8af8a.jpg');
+  background-size: cover;
+  /* height: 100vh; */
+  /* opacity: 0.6; */
+  font-family: "Poppins", sans-serif;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+
+}
+.form-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  /* width: 50%; */
+  height: 100%;
+  left: 0;
+  top: 0;
+ 
+}
+
+.baha-logo {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width: 55px;
+  height: 55px;
+}
+.gray {
+  color: #f68a1e;
+  font-weight: bolder;
+  text-align: left;
+  margin-right: 12px !important;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+.text-dark{
+margin-left: 12px ;
+}
+.btn-warning {
+  color: #ffffff !important;
+  background-color: #f68a1e !important;
+}
